@@ -13,8 +13,89 @@ html.no-js
     title Bootstrap Playground
     link rel="stylesheet" href="css/app.css" media="screen"
   body data-template="home"
+    header
+      .navbar.navbar-inverse
+        .navbar-inner
+          .container
+            a.btn.btn-navbar data-toggle="collapse" data-target=".nav-collapse"
+              span.icon-bar
+              span.icon-bar
+              span.icon-bar
+            a.brand href="#" G&#39;s Bootstrap Playground
+            .nav-collapse.collapse
+              ul.nav.pull-right
+                li.active: a href="#top" Home
+                li: a href="#" Section A
+                li: a href="#" Section B
+                li: a href="#" Section C
 
-    h1 G's Bootstrap Playground
+    .container
+      .row-fluid
+        .span4
+          h1 G's Bootstrap Playground
+        .span8
+          section
+            h2 Text Style Sheet (H2)
+            h2.lead This <em>Should</em> Have All Text Styles
+            h3 Headline Three Sub-header Lorem Ipsum (H3)
+            p Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.
+            hr
+            h2 Header Two Lorem Ipsum Sit Dolor (H2)
+            p Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu pulvinar risus, vitae facilisis libero dolor a purus. Sed vel lacus. Mauris nibh felis, adipiscing varius, adipiscing in, lacinia vel, tellus. Suspendisse ac urna. Etiam pellentesque mauris ut lectus. Nunc tellus ante, mattis eget, gravida vitae, ultricies ac, leo. Integer leo pede, ornare a, lacinia eu, vulputate vel, nisl.
+            h4 
+              a href="#" Header Four Lorem Ipsum Sit Dolor (H4)
+            h4.lead The Fourth Header with a Subheader Class (H4 Subheader)
+            p Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu pulvinar risus, vitae facilisis libero dolor a purus. Sed vel lacus. Mauris nibh felis, adipiscing varius, adipiscing in, lacinia vel, tellus. Suspendisse ac urna. Etiam pellentesque mauris ut lectus. Nunc tellus ante, mattis eget, gravida vitae, ultricies ac, leo. Integer leo pede, ornare a, lacinia eu, vulputate vel, nisl.
+            table.table.table-striped
+              tbody
+                tr
+                  td colspan="6"
+                    h2 A Sample Six Column Table (H2)
+                tr
+                  td
+                    strong Company
+                  td
+                    strong Mailing Address
+                  td
+                    strong Phone
+                  td
+                    strong Contact
+                  td
+                    strong Web
+                  td
+                    strong Listed
+                tr
+                  td
+                    | Lorem Ipsum Biz
+                    br
+                      | Sit Dolor Amit Company
+                  td
+                    | 5823 Infinite Loop
+                    br
+                      | Honolulu, HI 96821
+                  td 1 (808) 555-1234
+                  td Malia Johnson
+                  td
+                    a href="#" target="_blank" URL
+                  td Yes
+                
+            h5 Header Five Lorem Ipsum Sit Dolor (H5)
+            p Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu pulvinar risus, vitae facilisis libero dolor a purus. Sed vel lacus. Mauris nibh felis, adipiscing varius, adipiscing in, lacinia vel, tellus. Suspendisse ac urna. Etiam pellentesque mauris ut lectus. Nunc tellus ante, mattis eget, gravida vitae, ultricies ac, leo. Integer leo pede, ornare a, lacinia eu, vulputate vel, nisl.
+            .alert
+              | An Alert Box of Sorts
+              a.close href="#" &times;
+            .well
+              h6 Header Six Lorem Ipsum Sit Dolor (H6)
+              p Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu pulvinar risus, vitae facilisis libero dolor a purus. Sed vel lacus. Mauris nibh felis, adipiscing varius, adipiscing in, lacinia vel, tellus. Suspendisse ac urna. Etiam pellentesque mauris ut lectus. Nunc tellus ante, mattis eget, gravida vitae, ultricies ac, leo. Integer leo pede, ornare a, lacinia eu, vulputate vel, nisl.
+            blockquote Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu pulvinar risus, vitae facilisis libero dolor a purus. Sed vel lacus. (Blockquote)
+            a.btn.btn-large href="#" A Sample Large Button
+            a.btn disabled="" href="#" A Sample Disabled Button
+            hr
+            ul
+              li: strong List Group
+              li Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.
+              li Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
+              li Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.
 
     script src="http://code.jquery.com/jquery.js"
     script src="js/bootstrap.js"
