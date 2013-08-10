@@ -1,4 +1,4 @@
 Bootstrap-Playground
 ====================
 
-Getting to know Bootstrap 3.
+Getting to know Bootstrap 2.3.2
